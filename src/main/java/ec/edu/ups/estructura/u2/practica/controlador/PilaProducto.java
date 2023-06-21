@@ -24,10 +24,6 @@ public class PilaProducto <T,U,V> {
         Producto<T,U,V> productoProcesar = pilasProducto.pop();
         return productoProcesar;
     }
-    public Producto<T,U,V> procesarProductoCola(){
-        Producto<T,U,V> productoProcesar = pilasProducto.pop();
-        return productoProcesar;
-    }
     public boolean estaVacia(){
         return pilasProducto.isEmpty();
     }
